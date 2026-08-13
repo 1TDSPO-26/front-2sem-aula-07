@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Cabecalho from './components/Cabecalho/Cabecalho' //importando o componente Cabecalho
 import Rodape from './components/Rodape/Rodape' //importando o componente Rodape
 
