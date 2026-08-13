@@ -1,5 +1,6 @@
 import Cabecalho from "./components/Cabecalho/Cabecalho";
 import Rodape from "./components/Rodape/Rodape";
+import Saudacao from "./components/Saudacao/Saudacao";
 
 export default function App() {
   //Declaração de variáveis
@@ -13,6 +14,11 @@ export default function App() {
       {/* Aqui colocamos a apresentação */}
       <Cabecalho />
       <main>
+        <div>
+          <Saudacao nome={"Arthur"}/>
+        </div>
+
+
         <p>
           <b>{`Nome:${nome}Sobrenome:${sobrenome}`}</b>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus
