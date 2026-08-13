@@ -1,5 +1,6 @@
 import Cabecalho from "./components/Cabecalho/Cabecalho"
 import Rodape from "./components/Rodape/Rodape";
+import Saudacao from "./components/Saudacao/Saudacao";
 
 
 export default function App() {
@@ -7,20 +8,26 @@ export default function App() {
   //constante e etc;
 
   const nome: string = "Mateus";
-  const sobrenome:string = "Isaque";
-  return(
+  const sobrenome: string = "Isaque";
+  return (
     <div>
       {/**Aqui colocamos a
        * Apresentação
        */}
-      <Cabecalho/>
+      <Cabecalho />
       <main>
+
+        <div>
+          <Saudacao nome={"Jesus"} />
+        </div>
+
+
         <p>
           <b>Nome: {nome} Sobrenome: {sobrenome}</b>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero aperiam commodi, sunt atque hic provident totam sit officia animi dolor voluptatibus aliquid eos? Dolores ducimus rerum, quidem enim illo commodi officiis in repellendus corporis vero quam aliquam quae, blanditiis delectus modi ex libero! Doloremque odio ea, nostrum fugiat hic aliquam.
         </p>
       </main>
-      <Rodape/>
+      <Rodape />
     </div>
   );
 }
