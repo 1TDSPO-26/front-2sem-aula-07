@@ -1,8 +1,7 @@
 export default function Rodape() {
     return(
-        <header>
-            <h1>Projeto React Rodape</h1>
-            <h2>Auto: Eu</h2>
-        </header>
+        <footer>
+            <h2>Autor: Roberto Park</h2>
+        </footer>
     );
 }
