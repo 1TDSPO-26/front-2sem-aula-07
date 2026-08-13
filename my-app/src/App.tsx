@@ -2,8 +2,9 @@ import Cabecalho from "./components/Cabecalho/Cabecalho";
 import Rodape from "./components/Rodape/rodape";
 
 export default function App() {
-  //declaracao de variaveis e 
-  //constantes etc;
+
+  const nome:string = 'Matheus';
+  const sobrenome:string = 'Ruiz';
 
   return(
     <div>
@@ -11,8 +12,10 @@ export default function App() {
        * apresentação
        */}
       <Cabecalho/>
-    <main>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita minima assumenda perspiciatis repellendus illum delectus recusandae id fugiat, corrupti aut molestias rerum quia quasi nihil nulla, asperiores mollitia voluptas! Debitis.</p>
+      <main>
+      <p>
+        <b>{`Nome:${nome} Sobrenome:${sobrenome}`}</b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae veniam reprehenderit necessitatibus, excepturi dolores veritatis iusto dignissimos dolor nobis eligendi, vitae expedita harum perspiciatis porro sapiente at odit explicabo consectetur.
+      </p>
     </main>
        <Rodape/>
     </div>
