@@ -1,3 +1,5 @@
+import Botao from "../Botao/Botao";
+
 export default function Cabecalho(){
 
 

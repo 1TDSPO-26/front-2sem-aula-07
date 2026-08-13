@@ -19,6 +19,8 @@ function App() {
             odio enim ea ipsum? Tempora, atque!
           </p>
         </main>
+
+        
           <Rodape/>
 
     </div>
@@ -26,6 +28,8 @@ function App() {
   
         
 
-  );  
-  
+  );
+
 }
+
+export default App

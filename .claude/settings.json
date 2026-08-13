@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Invoke-WebRequest -Uri \"http://localhost:5173/src/main.tsx\" -UseBasicParsing)",
+      "PowerShell(try { $r = Invoke-WebRequest -Uri \"http://localhost:5173/src/main.tsx\" -UseBasicParsing; $r.StatusCode } catch { $_.Exception.Message })",
+      "PowerShell(Start-Sleep -Seconds 1; try { $r = Invoke-WebRequest -Uri \"http://localhost:5173/src/App.tsx\" -UseBasicParsing; if \\($r.Content -match \"export default\"\\) { \"OK: export default presente\" } else { \"AINDA SEM export default\" } } catch { $_.Exception.Message })"
+    ]
+  }
+}
