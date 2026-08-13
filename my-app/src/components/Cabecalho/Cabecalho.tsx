@@ -1,10 +1,11 @@
-import React from 'react'
+import Botao from "../Botao/Botao"
 
 function Cabecalho() {
   return (
     <header>
+      <Botao/>
         <h1>Projeto React</h1>
-        <h2>Autor: João</h2>
+        <h2>Autor: GB</h2>
     </header>
   )
 }
