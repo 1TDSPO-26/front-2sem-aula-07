@@ -6,6 +6,8 @@ export default function App() {
   //Declaração de variáveis e
   //constante e etc;
 
+  const nome: string = "Mateus";
+  const sobrenome:string = "Isaque";
   return(
     <div>
       {/**Aqui colocamos a
@@ -14,6 +16,7 @@ export default function App() {
       <Cabecalho/>
       <main>
         <p>
+          <b>Nome: {nome} Sobrenome: {sobrenome}</b>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero aperiam commodi, sunt atque hic provident totam sit officia animi dolor voluptatibus aliquid eos? Dolores ducimus rerum, quidem enim illo commodi officiis in repellendus corporis vero quam aliquam quae, blanditiis delectus modi ex libero! Doloremque odio ea, nostrum fugiat hic aliquam.
         </p>
       </main>
