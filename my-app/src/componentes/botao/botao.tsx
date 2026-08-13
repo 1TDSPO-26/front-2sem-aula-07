@@ -3,5 +3,5 @@ export default function Botao() {
         <>
             <button onClick={()=>alert('Teste')}>CLICK</button>
         </>
-    ):
+    );
 }
