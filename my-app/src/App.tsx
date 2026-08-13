@@ -1,5 +1,6 @@
 import Cabecalho from "./components/Cabecalho/Cabecalho"
 import Rodape from "./components/Rodape/Rodape";
+import Saudacao from "./components/Saudacao/SAudacao";
 
 
 function name() {
@@ -13,8 +14,16 @@ function name() {
        */}
        <Cabecalho/>
        <main>
+        <div>
+          <Saudacao nome={"Jose"}
+        </div>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque aliquid ex tempore neque earum soluta facilis recusandae doloribus fuga, dignissimos optio distinctio cumque repellendus ratione molestiae quam quos suscipit consectetur.
+          Lorem ipsum dolor sit amet, consectetur 
+          adipisicing elit. Atque aliquid ex tempore
+          neque earum soluta facilis recusandae 
+          doloribus fuga, dignissimos optio distinctio
+          cumque repellendus ratione molestiae quam quos
+          suscipit consectetur.
         </p>
        </main>
        <Rodape/>
