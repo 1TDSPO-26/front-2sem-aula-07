@@ -5,6 +5,9 @@ import Rodape from "./components/Rodape/Rodape"
 export default function App(){
 //Declareção de variaveis e constantes etc;
 
+  const nome:string ="ale";
+  const sobrenome:string = "carlos";
+
   return(
     <div>
       {/**Aqui colocamos a apresentação */}
@@ -12,7 +15,7 @@ export default function App(){
       
       <main>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem, labore dicta voluptatum aperiam eveniet consequatur. Labore aut fugit laborum explicabo incidunt vitae. Distinctio et dicta expedita temporibus suscipit! Adipisci nam voluptas quisquam unde, nemo tenetur possimus sapiente est eveniet saepe, qui enim voluptate, voluptatum impedit. Quis, hic! At, quae reprehenderit.
+          <b>{`Nome:${nome} sobrenome:${sobrenome}`}</b> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem, labore dicta voluptatum aperiam eveniet consequatur. Labore aut fugit laborum explicabo incidunt vitae. Distinctio et dicta expedita temporibus suscipit! Adipisci nam voluptas quisquam unde, nemo tenetur possimus sapiente est eveniet saepe, qui enim voluptate, voluptatum impedit. Quis, hic! At, quae reprehenderit.
         </p>
       </main>
 
