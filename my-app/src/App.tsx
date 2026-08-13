@@ -5,12 +5,16 @@ export default function App() {
   //Declaração de variáveis
   //Constantes etc;
 
+  const nome:string = "Art";
+  const sobrenome = "Martins";
+
   return (
     <div>
       {/* Aqui colocamos a apresentação */}
       <Cabecalho />
       <main>
         <p>
+          <b>{`Nome:${nome}Sobrenome:${sobrenome}`}</b>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus
           eum, quaerat consequatur error qui animi nostrum necessitatibus quo
           rerum sequi. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
