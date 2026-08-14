@@ -18,9 +18,9 @@ export default function App() {
           <Saudacao nome=("Jose")/>
 
         </div>
-      <p>
-        <b>{`nome:${nome} Sobrenome:${sobrenome}`}</b>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil at dignissimos facilis laborum ut, dicta ullam similique, unde beatae blanditiis sunt? Consequatur molestiae, praesentium magni commodi rem animi earum architecto!
-      </p>
+        <p>
+          <b>{`nome:${nome} Sobrenome:${sobrenome}`}</b>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil at dignissimos facilis laborum ut, dicta ullam similique, unde beatae blanditiis sunt? Consequatur molestiae, praesentium magni commodi rem animi earum architecto!
+        </p>
       </main>
       <Rodape/>
     </div>
