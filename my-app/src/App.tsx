@@ -1,23 +1,34 @@
-import Cabecalho from "./components/Cabecalho/Cabecalho";
-import Rodape from "./components/Rodape/Rodape";
-
-
-export default function App(){
-  //Declaração de variáveis e
-  //constantes etc;
  
-  return(
+import Cabecalho from "./components/Cabecalho/Cabecalho"
+import Rodape from "./components/Rodape/Rodape";
+import Saudacao from "./components/Saudacao/Saudacao";
+
+export default function App() {
+  //Declaração de variáveis e
+  //constante e etc;
+  const nome: string = "Mateus";
+  const sobrenome: string = "Isaque";
+  return (
     <div>
-      {/**Aqui colocamos a Apresentação */}
-    <Cabecalho />
-    <main>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id, perferendis cupiditate. Ratione sint odio, facere qui itaque optio architecto pariatur officiis culpa iusto? Mollitia recusandae magni voluptatum, in deleniti ullam.</p>
+      {/**Aqui colocamos a
+       * Apresentação
+       */}
+      <Cabecalho />
+      <main>
+        <div>
+          <Saudacao nome={"Jesus"} />
+        </div>
+
+        <p>
+          <b>Nome: {nome} Sobrenome: {sobrenome}</b>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero aperiam commodi, sunt atque hic provident totam sit officia animi dolor voluptatibus aliquid eos? Dolores ducimus rerum, quidem enim illo commodi officiis in repellendus corporis vero quam aliquam quae, blanditiis delectus modi ex libero! Doloremque odio ea, nostrum fugiat hic aliquam.
+        </p>
       </main>
       <Rodape />
     </div>
   );
-
-
 }
+ 
+ 
 
  
