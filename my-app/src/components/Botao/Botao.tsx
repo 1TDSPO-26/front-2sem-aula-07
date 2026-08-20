@@ -3,7 +3,7 @@ export default function Botao() {
 
   return (
     <>
-      <button onClick={() => alert('Botão clicado!')}>
+      <button onClick={() => alert('Ana é linda!')}>
         Botão
       </button>
     </>
