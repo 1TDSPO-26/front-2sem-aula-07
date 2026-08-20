@@ -1,34 +1,17 @@
 import Cabecalho from "./components/Cabecalho/Cabecalho";
+import Conteudo from "./components/Conteudo/Conteudo";
 import Rodape from "./components/Rodape/Rodape";
-import Saudacao from "./components/Saudacao/Saudacao";
+
 
 export default function App() {
   //Declaração de variáveis
   //Constantes etc;
 
-  const nome:string = "Art";
-  const sobrenome = "Martins";
 
   return (
     <div>
-      {/* Aqui colocamos a apresentação */}
       <Cabecalho />
-      <main>
-        <div>
-          <Saudacao nome={"Arthur"}/>
-        </div>
-
-
-        <p>
-          <b>{`Nome:${nome}Sobrenome:${sobrenome}`}</b>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus
-          eum, quaerat consequatur error qui animi nostrum necessitatibus quo
-          rerum sequi. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-          Dolore eius quibusdam repellendus commodi! Corporis saepe laborum
-          velit harum distinctio ex, animi fugit excepturi accusantium iusto,
-          ipsam esse commodi facilis soluta?
-        </p>
-      </main>
+      <Conteudo />
       <Rodape />
     </div>
   );
