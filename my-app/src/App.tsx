@@ -1,6 +1,7 @@
 import Cabecalho from "./components/Cabecalho/cabecalho"
 import Rodape from "./components/Rodape/rodape"
 import Saudacao from "./components/Saudacao/saudacao" 
+import Conteudo from "./components/Conteudo/conteudo"
 
 
 export default function App() {
@@ -11,12 +12,7 @@ export default function App() {
   return(
     <div>
       <Cabecalho/>
-      <main>
-        <Saudacao nome={"Alexandre"} />
-        <p>
-          <b>Olá, {nome} {sobrenome}</b>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur corrupti atque voluptatibus? Ut dolores est fuga facilis dignissimos? Atque inventore minus quae reprehenderit ipsum, ex autem ipsa consectetur ullam officia!</p>
-      </main>
+      <Conteudo/>
       <Rodape/>
     </div>
   )
