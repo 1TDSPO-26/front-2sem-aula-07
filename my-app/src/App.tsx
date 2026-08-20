@@ -1,6 +1,6 @@
 import Cabecalho from "./components/Cabecalho/Cabecalho"
+import Conteudo from "./components/Conteudo/Conteudo";
 import Rodape from "./components/Rodape/Rodape";
-import Saudacao from "./components/Saudacao/Saudacao";
 
 
 export default function App() {
@@ -11,22 +11,8 @@ export default function App() {
   const sobrenome: string = "Isaque";
   return (
     <div>
-      {/**Aqui colocamos a
-       * Apresentação
-       */}
       <Cabecalho />
-      <main>
-
-        <div>
-          <Saudacao nome={"Jesus"} />
-        </div>
-
-
-        <p>
-          <b>Nome: {nome} Sobrenome: {sobrenome}</b>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero aperiam commodi, sunt atque hic provident totam sit officia animi dolor voluptatibus aliquid eos? Dolores ducimus rerum, quidem enim illo commodi officiis in repellendus corporis vero quam aliquam quae, blanditiis delectus modi ex libero! Doloremque odio ea, nostrum fugiat hic aliquam.
-        </p>
-      </main>
+      <Conteudo/>
       <Rodape />
     </div>
   );
