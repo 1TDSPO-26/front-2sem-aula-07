@@ -1,6 +1,7 @@
 import Cabecalho from "./componentes/cabecalho/Cabecalho"
 import Rodape from "./componentes/rodape/Rodape";
 import Conteudo from "./componentes/conteudo/Conteudo";
+import { Outlet } from "react-router";
 
 
 export default function App() {
@@ -12,7 +13,7 @@ export default function App() {
   return(
     <div>
       <Cabecalho />
-      <Conteudo/>
+        <Outlet/>
       <Rodape />
     </div>
 
