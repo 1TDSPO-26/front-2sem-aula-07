@@ -1,6 +1,6 @@
 
+import { Outlet } from "react-router";
 import Cabecalho from "./components/Cabecalho/Cabecalho";
-import Conteudo from "./components/conteudo/Conteudo";
 import Rodape from "./components/Rodape/Rodape";
 
 export default function App() {
@@ -11,7 +11,7 @@ export default function App() {
          * Apresentação
          */}
       <Cabecalho />
-      <Conteudo />
+        <Outlet/>
       <Rodape />
     </div>
   );
