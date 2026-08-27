@@ -1,5 +1,6 @@
 import Cabecalho from "./componentes/cabecalho/Cabecalho"
 import Rodape from "./componentes/rodape/Rodape";
+import Conteudo from "./componentes/conteudo/Conteudo";
 
 
 export default function App() {
@@ -10,14 +11,9 @@ export default function App() {
 
   return(
     <div>
-      {/** Aqui colocamos a apresentação */}
-      <Cabecalho/>
-      <main>
-        <div>
-          <Saudacao nome="Jose" />
-        </div>
-      </main>
-      <Rodape/>
+      <Cabecalho />
+      <Conteudo/>
+      <Rodape />
     </div>
 
     );
