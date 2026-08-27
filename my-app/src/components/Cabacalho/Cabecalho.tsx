@@ -5,7 +5,7 @@ export default function Cabecalho() {
     return(
         <div>
         <Botao />
-        <header>
+        <header className="bg-amber">
             <h1>Projeto React</h1>
             <h2>Autor: eu</h2>
         </header>
