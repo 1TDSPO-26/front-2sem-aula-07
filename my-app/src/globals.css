@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-@layer base {
+@layer base{
     body{
         @apply w-max h-max bg-gray-900 text-white;
     }
