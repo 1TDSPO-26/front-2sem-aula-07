@@ -1,0 +1,12 @@
+@import 'tailwindcss';
+
+@layer base {
+  body{
+    @apply bg-gray-100 text-gray-800 w-full h-full;
+  }
+
+  .myclass {
+    @apply bg-blue-500 text-black w-screen flex justify-around;
+  }
+}
+
