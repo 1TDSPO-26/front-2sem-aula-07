@@ -1,7 +1,8 @@
-export default function Rodape(){
-    return(
+export default function Rodape() {
+
+    return (
         <footer>
-            <h1>Rodapé</h1>
+            <h2>© 2026 Meu Projeto React. Todos os direitos reservados para Allex Oliveira Costa.</h2>
         </footer>
-    )
+    );
 }
