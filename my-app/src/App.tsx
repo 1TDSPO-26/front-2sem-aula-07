@@ -10,14 +10,11 @@ function App() {
     
   return(
     <div>
-      {//*Aqui colocamo a apresentação
+      {//*Aqui colocamos a apresentação
       }
       <Cabecalho/>
-      <Conteudo/>  
-
-        
-          <Rodape/>
-
+        <Outlat/>
+      <Rodape/>
     </div>
     
   
