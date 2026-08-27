@@ -1,19 +1,16 @@
 
+import { Outlet } from 'react-router'
 import Cabecalho from './components/Cabecalho/Cabecalho'
-import Conteudo from './components/Conteudo/Conteudo'
+
 import Rodape from './components/Rodape/Rodape'
 
 
 function App() {
-  //declaaração de variáveis e funções do componente
-  //constantes 
-
-
 
   return (
     <div>
       <Cabecalho />
-      <Conteudo />
+      <Outlet/>
       <Rodape />
     </div>
   )
