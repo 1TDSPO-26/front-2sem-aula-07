@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@layer base{
+    body{
+        @apply w-max h-max bg-purple-600 text-white;
+    }
+
+    .minhaclasse{
+        @apply hover:bg-blue-800;
+    }
+
+}
+    
+
