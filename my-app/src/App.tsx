@@ -8,10 +8,12 @@ function App() {
 
   return (
     // area HTML
-    <div className="flex flex-col justify-between w-screen h-screen ">
+    <div className="flex min-h-screen flex-col">
       {/*area para a apresentação*/}
       <Cabecalho />
-      <Outlet />
+      <div className="flex-1">
+        <Outlet />
+      </div>
       <Rodape />
     </div>
   );
