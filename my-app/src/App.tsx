@@ -1,18 +1,17 @@
+import { Outlet } from "react-router";
 import Cabecalho from "./components/Cabecalho/Cabecalho"; //importando o componente Cabecalho
-import Conteudo from "./components/Conteudo/Conteudo";
 import Rodape from "./components/Rodape/Rodape"; //importando o componente Rodape
 
 // componente funcional
 function App() {
   // area para declarar variaveis e constantes
 
-
   return (
     // area HTML
-    <div>
+    <div className="flex flex-col justify-between w-screen h-screen ">
       {/*area para a apresentação*/}
       <Cabecalho />
-      <Conteudo/>
+      <Outlet />
       <Rodape />
     </div>
   );
